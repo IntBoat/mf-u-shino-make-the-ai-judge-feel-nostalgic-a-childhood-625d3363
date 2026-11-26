@@ -10,6 +10,8 @@ One original single sentence recalling a childhood memory, written to /output/en
 
 ## Run it
 
+The program writes the entry exactly as quoted above, with no trailing newline.
+
 ```sh
 python3 main.py
 ```

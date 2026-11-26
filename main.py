@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """Make the AI Judge Feel Nostalgic: A Childhood Memory (make.fun).
 
-Writes the entry -- one original one-line text -- to /output/entry.txt,
-where the sealed scorer reads it.
+Writes the entry -- a single original one-line text -- to
+/output/entry.txt, where the sealed scorer reads it.
 """
 
 import os
 
+# The entry itself: exactly one sentence, written with no trailing newline.
 ENTRY = "Grandmother's kitchen smelled of rice steam and rain on hot concrete, and I believed then that summer evenings would last forever because nobody had told me they end."
 
 
